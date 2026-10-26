@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Татьяна Гаврина — художник</title>
+<meta name="description" content="Интерьерный художник Татьяна Гаврина: помогу подобрать картину в ваш интерьер и выполню её в разных техниках.">
+<meta property="og:title" content="Интерьерный художник Татьяна Гаврина">
+<meta property="og:description" content="Все ссылки: Telegram, ВКонтакте, Ярмарка Мастеров, Instagram">
+<meta name="theme-color" content="#f4eee6">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f4eee6;
+    --paper:#fbf8f3;
+    --ink:#2a2320;
+    --muted:#7c6f66;
+    --line:#e4d9cc;
+    --accent:#b0614f;
+    --accent-soft:#efdcd3;
+    --shadow:0 1px 2px rgba(60,40,30,.06),0 8px 24px -12px rgba(60,40,30,.18);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{min-height:100%}
+  body{
+    background:var(--bg);
+    background-image:
+      radial-gradient(1200px 600px at 110% -10%, #ead8cb 0%, transparent 60%),
+      radial-gradient(900px 500px at -20% 110%, #e6ddd0 0%, transparent 55%);
+    color:var(--ink);
+    font-family:"Manrope",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    display:flex;justify-content:center;
+    padding:48px 16px calc(32px + env(safe-area-inset-bottom));
+  }
+  main{width:100%;max-width:440px;display:flex;flex-direction:column;align-items:center}
+
+  .mark{
+    width:104px;height:104px;border-radius:50%;
+    display:grid;place-items:center;
+    background:
+      radial-gradient(circle at 30% 28%, #fff 0%, #f6efe8 38%, #e9d9cc 100%);
+    box-shadow:var(--shadow), inset 0 0 0 1px rgba(255,255,255,.7);
+    position:relative;
+  }
+  .mark::after{
+    content:"";position:absolute;inset:-7px;border-radius:50%;
+    border:1px solid var(--line);
+  }
+  .mark span{
+    font-family:"Cormorant Garamond",Georgia,serif;
+    font-size:44px;font-weight:600;letter-spacing:.02em;color:var(--accent);
+    line-height:1;transform:translateY(-1px);
+  }
+
+  .eyebrow{
+    margin-top:26px;
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);
+  }
+  h1{
+    margin-top:8px;
+    font-family:"Cormorant Garamond",Georgia,serif;
+    font-weight:600;font-size:38px;line-height:1.05;text-align:center;
+  }
+  .lead{
+    margin-top:12px;max-width:330px;text-align:center;
+    font-size:15px;line-height:1.55;color:var(--muted);
+  }
+  .rule{width:44px;height:1px;background:var(--accent);opacity:.5;margin:26px 0 22px}
+
+  nav{width:100%;display:flex;flex-direction:column;gap:12px}
+  .link{
+    display:flex;align-items:center;gap:14px;
+    padding:14px 16px;min-height:72px;
+    background:var(--paper);
+    border:1px solid var(--line);border-radius:18px;
+    color:inherit;text-decoration:none;
+    box-shadow:var(--shadow);
+    transition:transform .15s ease, border-color .15s ease, background .15s ease;
+    -webkit-tap-highlight-color:transparent;
+  }
+  .link:hover{border-color:#d6c4b3;transform:translateY(-1px)}
+  .link:active{transform:scale(.985);background:#fff}
+  .ico{
+    flex:none;width:44px;height:44px;border-radius:14px;
+    display:grid;place-items:center;
+    background:var(--accent-soft);color:var(--accent);
+  }
+  .ico svg{width:22px;height:22px}
+  .txt{flex:1;min-width:0}
+  .txt b{display:block;font-weight:600;font-size:16px;line-height:1.25}
+  .txt small{display:block;margin-top:3px;font-size:13px;color:var(--muted);line-height:1.35}
+  .arr{flex:none;color:#b9a99b}
+  .arr svg{width:18px;height:18px;display:block}
+
+  footer{margin-top:34px;font-size:12px;color:#a39587;letter-spacing:.04em;text-align:center}
+
+  @media (max-width:360px){
+    h1{font-size:33px}
+    .link{padding:12px 14px}
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark" aria-hidden="true"><span>ТГ</span></div>
+
+  <p class="eyebrow">Интерьерный художник</p>
+  <h1>Татьяна Гаврина</h1>
+  <p class="lead">Помогу подобрать картину в ваш интерьер и выполню её в разных техниках</p>
+
+  <div class="rule"></div>
+
+  <nav aria-label="Ссылки">
+    <a class="link" href="https://t.me/dizaininterieragtv">
+      <span class="ico" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 4 3 11.2l6.6 2.4L12 20l3.4-4.6L21 4Z"/><path d="m9.6 13.6 5.8-5"/></svg>
+      </span>
+      <span class="txt"><b>Telegram</b><small>Канал: новые работы и подбор</small></span>
+      <span class="arr" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span>
+    </a>
+
+    <a class="link" href="https://www.livemaster.ru/tatyana-valerevna-gavrina-hudozhnik">
+      <span class="ico" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h14l-1.2 11.2a1 1 0 0 1-1 .8H7.2a1 1 0 0 1-1-.8L5 8Z"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8"/></svg>
+      </span>
+      <span class="txt"><b>Ярмарка Мастеров</b><small>Магазин: готовые картины и заказ</small></span>
+      <span class="arr" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span>
+    </a>
+
+    <a class="link" href="https://vk.com/dizaininterieragtv">
+      <span class="ico" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8.5" r="3"/><path d="M3.5 19a5.5 5.5 0 0 1 11 0"/><circle cx="17" cy="9.5" r="2.3"/><path d="M15.5 14.2A4.5 4.5 0 0 1 21 18.5"/></svg>
+      </span>
+      <span class="txt"><b>ВКонтакте</b><small>Сообщество: работы и отзывы</small></span>
+      <span class="arr" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span>
+    </a>
+
+    <a class="link" href="https://www.instagram.com/tatyana_gavrina_hudognik/">
+      <span class="ico" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8.5A2.5 2.5 0 0 1 6.5 6h1.8l1.4-2h4.6l1.4 2h1.8A2.5 2.5 0 0 1 20 8.5v8A2.5 2.5 0 0 1 17.5 19h-11A2.5 2.5 0 0 1 4 16.5v-8Z"/><circle cx="12" cy="12.5" r="3.5"/></svg>
+      </span>
+      <span class="txt"><b>Instagram</b><small>Портфолио работ</small></span>
+      <span class="arr" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span>
+    </a>
+  </nav>
+
+  <footer>© Татьяна Гаврина</footer>
+</main>
+</body>
+</html>
